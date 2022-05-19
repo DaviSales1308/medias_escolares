@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="pagina1.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiro projeto</title>
+</head>
+    <body>
+        <header class="topo_site">
+            <div class="titulo">
+                <label style="font-family:sans-serif;color:#ffffff;font-size:50px;"><B>Calculadora de média escolar</B></label>
+            </div>
+            <div class="corpo">
+                        <form autocomplete="off" method="post" id="notas">
+                            <ul>
+                                <li style="font-family:sans-serif;color:#444e5d;font-size: 1cm;">Qual o seu nome?
+                                    <input type="text" id=nome placeholder="Seu nome"></li><br>
+                                <br><li style="font-family:sans-serif;color:#444e5d;font-size: 1cm;">Qual o ano do Ensino Médio você esta?</label>
+                                    <select>
+                                        <option selected disabled value="">Selecione o seu ano</option>
+                                        <option value="9°ano">9°ano do Ensino Médio</option>
+                                        <option value="1°ano">1°ano do Ensino Médio</option>
+                                        <option value="2°ano">2°ano do Ensino Médio</option>
+                                        <option value="3°ano">3°ano do Ensino Médio</option>
+                                    </select></li><br>
+                                <br><li style="font-family:sans-serif;color:#444e5d;font-size: 1cm;">Qual matéria você deseja calcular?</label>
+                                    <select id="materia">
+                                            <option selected disabled value="">Selecione a matéria</option>
+                                            <option value="port">Português</option>
+                                            <option value="lit">Literatura</option>
+                                            <option value="art">Artes</option>
+                                            <option value="ing">Inglês</option>
+                                            <option value="hist1">História 1</option>
+                                            <option value="hist2">História 2</option>
+                                            <option value="hist3">História 3</option>
+                                            <option value="geo1">Geografia 1</option>
+                                            <option value="geo2">Geografia 2</option>
+                                            <option value="geo3">Geografia 3</option>
+                                            <option value="filo">Filosofia</option>
+                                            <option value="socio">Sociologia</option>
+                                            <option value="mat1">Matemática 1</option>
+                                            <option value="mat2">Matemática 2</option>
+                                            <option value="mat3">Matemática 3</option>
+                                            <option value="bio1">Biologia 1</option>
+                                            <option value="bio2">Biologia 2</option>
+                                            <option value="bio3">Biologia 3</option>
+                                            <option value="fis1">Física 1</option>
+                                            <option value="fis2">Física 2</option>
+                                            <option value="fis3">Física 3</option>
+                                            <option value="quim1">Química 1</option>
+                                            <option value="quim2">Química 2</option>
+                                            <option value="quim3">Química 3</option>
+                                    </select></li><br>
+                                <br><li style="font-family:sans-serif;color:#444e5d;font-size: 1cm;;">Insira aqui a nota da sua <b>AC1</b>:
+                                    <input type="number" min="0" max="10" placeholder="Sua nota" id="ac1"><button>Enviar</button></li><br>
+                                <br><li style="font-family:sans-serif;color:#444e5d;font-size: 1cm;;">Insira aqui a nota da sua <b>AC2</b>:
+                                    <input type="number" min="0" max="10" placeholder="Sua nota" id="ac2"><button>Enviar</button></li><br>
+                                <br><li style="font-family:sans-serif;color:#444e5d;font-size: 1cm;;">Insira aqui a nota da sua <b>AC3</b>:
+                                    <input type="number" min="0" max="10" placeholder="Sua nota" id="ac3"><button>Enviar</button></li>
+                                <br><li style="font-family:sans-serif;color:#444e5d;font-size: 1cm;;" id="SB">Insira aqui a nota do seu <b>Simulado Bernoulli</b>:
+                                    <input type="number" min="0" max="10" placeholder="Sua nota"><button>Enviar</button></li>
+                                <br><li style="font-family:sans-serif;color:#444e5d;font-size: 1cm;;" id="SC">Insira aqui a nota do seu <b>Simulado do Colégio</b>:
+                                    <input type="number" min="0" max="1" placeholder="Sua nota"><button>Enviar</button></li>
+                            </ul>
+                        </form>
+                </div>
+                <div class="botao">
+                    <form class="bt1" action="pagina2.html">
+                        <input type="submit" value="Calcular" onclick="calc" style="font-size:20px;font-style:oblique;">
+                    </form>
+                </div>
+                <footer class="rodape_site">
+                    <div class="contato">
+                        <label style="font-family:sans-serif;color:#ffffff;font-size:20px"><b>Contatos:</b></label>
+                            <ul style="list-style: none;">
+                                <li style="font-family:sans-serif;color:#ffffff;font-size:20px">
+                                    <a href="https://www.instagram.com/daavisales/" target="blank">Instagram: @daavisales</a>
+                                </li>
+                                <li style="font-family:sans-serif;color:#ffffff;font-size:20px">
+                                    <a href="mailto:davi.armando@hotmail.com" target="blank">Email: davi.armando@hotmail.com</a>
+                                </li>
+                                <li style="font-family:sans-serif;color:#ffffff;font-size:20px">
+                                    <a href="https://www.facebook.com/daviarmando.lirasales.7/" target="blank">Facebook: Davi Armando Lira Sales</a>
+                                </li>
+                                <li style="font-family:sans-serif;color:#ffffff;font-size:20px">
+                                    <a href="https://contate.me/davi.sales" target="blank">WhatsApp: (82)98857-6335</a>
+                                </li>
+                            </ul>
+                    </div>
+                </footer>
+        </header>        
+    </body>
+</html>

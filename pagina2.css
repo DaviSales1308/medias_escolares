@@ -1,0 +1,20 @@
+body{
+    height: 100%;
+    width: 100%;
+    background-color: #efefed;
+    margin: auto 0;
+    padding: 0px;
+    box-sizing: border-box ;
+}
+
+.topo_site{
+    background-color:#025b82;
+    height: 100px;
+}
+.titulo{
+    height: 80px;
+    font-style: oblique;
+    padding: 20px;
+    text-align: center;
+    text-shadow: 0.1em 0.1em 0.1em rgb(0, 0, 0)
+}

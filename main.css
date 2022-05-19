@@ -1,0 +1,56 @@
+body{
+    height: 100%;
+    width: 100%;
+    background-color: #efefed;
+    margin: auto 0;
+    padding: 0px;
+    box-sizing: border-box ;
+}
+
+.topo_site{
+    background-color:#025b82;
+    height: 100px;
+}
+.titulo{
+    height: 80px;
+    font-style: oblique;
+    padding: 20px;
+    text-align: center;
+    text-shadow: 0.1em 0.1em 0.1em rgb(0, 0, 0)
+}
+.sobre{
+    text-align: center;
+}  
+.rodape_site{
+    height: 160px;
+    background-color:#025b82;
+}
+.contato{
+    height: 80px;
+    padding: 20px;
+    text-align: center;
+}
+.contato a{
+    color:#ffffff;
+    text-decoration: none;
+    text-align: center;
+    text-shadow: 0.1em 0.1em 0.1em rgb(0, 0, 0)
+}
+.botao{
+    text-align: center;
+    height: 125px;
+}
+.botao input{
+    box-shadow: 2px 2px 2px #000;
+    float: center;
+    width: 250px;
+    height: 80px;
+    background-color:#025b82;
+    color: #ffffff;
+    border-radius: 3px;
+    cursor: pointer;
+    border:none;
+}
+.bt1:hover input{
+    background-color:#123646;
+}
